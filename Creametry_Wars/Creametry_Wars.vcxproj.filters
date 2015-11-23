@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Headers_Classes">
+      <UniqueIdentifier>{f8c75439-a854-4c98-8bbe-feb07259f0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Sources_Classes">
+      <UniqueIdentifier>{c5d8f1dd-2fca-46dd-9798-7305abd01703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Headers_Classes\Ressources_manager">
+      <UniqueIdentifier>{c4529eeb-77c1-453a-a04d-27e4d1da1ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Sources_Classes\Ressources_manager">
+      <UniqueIdentifier>{ae3f3e8f-35f7-478c-b6ae-5bffcf285f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Headers_Classes\Ennemis">
+      <UniqueIdentifier>{b8f88ec4-9795-4f8f-8633-87f77b4e6883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Sources_Classes\Ennemis">
+      <UniqueIdentifier>{2449594a-1327-45d0-9b2d-a881fff0994e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_joueur.cpp">
+      <Filter>Fichiers sources\Sources_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_menu.cpp">
+      <Filter>Fichiers sources\Sources_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_game.cpp">
+      <Filter>Fichiers sources\Sources_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_data_sfml.cpp">
+      <Filter>Fichiers sources\Sources_Classes\Ressources_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_graph.cpp">
+      <Filter>Fichiers sources\Sources_Classes\Ressources_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_sound.cpp">
+      <Filter>Fichiers sources\Sources_Classes\Ressources_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_niveau.cpp">
+      <Filter>Fichiers sources\Sources_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_tir.cpp">
+      <Filter>Fichiers sources\Sources_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_ennemi.cpp">
+      <Filter>Fichiers sources\Sources_Classes\Ennemis</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_ennemi_base.cpp">
+      <Filter>Fichiers sources\Sources_Classes\Ennemis</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_ennemi_fantome.cpp">
+      <Filter>Fichiers sources\Sources_Classes\Ennemis</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header_libs.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="header_classes.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_game.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_joueur.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_menu.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_data_sfml.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes\Ressources_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_graph.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes\Ressources_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_sound.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes\Ressources_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_niveau.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_tir.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_ennemi.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes\Ennemis</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_ennemi_base.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes\Ennemis</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_ennemi_fantome.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes\Ennemis</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
